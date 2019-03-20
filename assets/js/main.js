@@ -398,4 +398,35 @@
 						$main._show(location.hash.substr(1), true);
 					});
 
+	// Contact
+	var contact = $('#contact_form');
+
+	contact.submit(function (event) {
+		event.preventDefault();
+
+		var data = contact.serializeArray()
+			.reduce(function(data, row) {
+				data[row.name] = row.value;
+				return data;
+			}, {});
+
+		$.ajax({
+			url: "https://script.google.com/macros/s/AKfycbzvAGmSV6rtKGDs5NUeYwq9vAVnGqkX6TKjX7JPSqTWanjFWXk/exec",
+			type: "GET",
+
+			data: {
+				timestamp: new Date().toGMTString(),
+				name: data.name,
+				email: data.email,
+				message: data.message
+			},
+			success: function(data, status, jqXHR) {
+				location.hash = 'contact_success';
+			},
+			error: function(jqXHR, status, error) {
+				alert('There was an error processing your submission. Please try again.');
+			}
+		});
+	});
+
 })(jQuery);
