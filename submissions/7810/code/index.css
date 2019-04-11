@@ -1,0 +1,155 @@
+body {margin: 0;}
+
+header {height: 800px;}
+#myVideo {
+  background:radial-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0));
+  position: absolute;
+  top: 0;
+  z-index:-1000;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#name {float:left; margin:30px;}
+
+.gradient {
+/* The image used */
+    background:radial-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0));
+	/* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	-webkit-background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;  
+    width: 100%;
+  height:103vh;
+  object-fit: cover;
+  position: absolute;
+  z-index:-1;
+}
+/*You Are Invited*/
+.center {
+	padding-top: 130px;
+    line-height:0;
+    margin:auto;
+    text-align:center;
+	
+}
+/*Nav bar*/
+#nav {padding:20px 40px; animation: fadeDown .9s forwards;}
+#nav a:hover, .active {color:white; transition: all 0.3s ease-in-out 0s;}
+#nav a {float:right; display: inline-block; margin: 10px; font-size: 16px; text-transform: uppercase; position: relative; color:#FFF; text-decoration: none; font-family: 'Quicksand', sans-serif;}
+#nav a:before, #discover-p a:before {content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+	transform: scaleX(0);
+transition: all 0.3s ease-in-out 0s;}
+
+#nav a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#parallax2 {
+	/* The image used */
+  
+	background:radial-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../../../Downloads/couple.jpg);
+	
+    /* Full height */
+    
+	height:100vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	-webkit-background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+}
+
+#invitation {padding:20vh;}
+#invitation h3 {font-family: 'Quicksand', sans-serif; font-size:3vh; color:#FFF; }
+#invitation h1 {font-family: 'Parisienne', cursive; font-size:12vh; color:#C08900; margin:auto;
+}
+#parallax3 {
+	/* The image used */
+	padding: 10vh;
+	background:radial-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../images/beachh.jpg);
+	
+
+	height:120vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	-webkit-background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#place {float:left; width:50%;}
+#place h2 {font-family: 'Parisienne', cursive; font-size:7vh; color:#C08900;}
+#place h4 {font-family: 'Quicksand', sans-serif; color:#FFF; font-size:2.5vh;}
+#program {float:right; width:50%;}
+#program h2 {font-family: 'Parisienne', cursive; font-size:7vh; color:#C08900;}
+#program h4 {font-family: 'Quicksand', sans-serif; color:#FFF; font-size:2.5vh;}
+
+span {font-weight:bold; font-family: 'Parisienne', cursive; color:deepskyblue; font-size:3vh;}
+
+#parallax4 {
+	/* The image used */
+  padding:7vh;
+	background:radial-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../images/couple2.jpg);
+	
+    /* Full height */
+    
+	height:105vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	-webkit-background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#RSVP h1 {font-family: 'Quicksand', sans-serif; color: white; font-size: 40px; }
+#RSPV {float:left; width:50% }
+
+.btn-group {float:right;width:50%; margin-top: 150px;}
+.btn-group button {
+background-color: #C08900; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white;/* White text */
+  font-family: 'Quicksand', sans-serif;
+  font-size:3vh;
+  padding: 20px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 80%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group a {color:#000; text-decoration: none;}
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group a:hover {
+  color:#FFF; transition: all 0.3s ease-in-out 0s;
+}
+.btn-group a:visited {text-decoration:none;}
