@@ -128,9 +128,8 @@ span {font-weight:bold; font-family: 'Parisienne', cursive; color:deepskyblue; f
 }
 
 #RSVP h1 {font-family: 'Quicksand', sans-serif; color: white; font-size: 40px; }
-#RSPV {float:left; width:50% }
-
-.btn-group {float:right;width:50%; margin-top: 150px;}
+#RSPV {float:left; width:45%; margin-top:300px;}
+.btn-group {float:right;width:45%; }
 .btn-group button {
 background-color: #C08900; /* Green background */
   border: 1px solid green; /* Green border */
