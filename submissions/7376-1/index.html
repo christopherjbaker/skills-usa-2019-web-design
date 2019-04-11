@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wedding Invitation</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"></script>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900');
+    </style>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="loader">
+        <!-- Preloader inner -->
+        <div class="loader-inner">
+            <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle class="spinner" cx="50" cy="50" r="21" fill="#111" stroke-width="2" />
+            </svg>
+        </div>
+        <!-- End preloader inner -->
+    </div>
+    <!-- End preloader-->
+    <a id="back2Top" title="Back to top" href="#">&#60;</a>
+    <script>
+        /*Scroll to top when arrow up clicked BEGIN*/
+        $(window).scroll(function () {
+            var height = $(window).scrollTop();
+            if (height > 100) {
+                $('#back2Top').fadeIn();
+            } else {
+                $('#back2Top').fadeOut();
+            }
+        });
+        $(document).ready(function () {
+            $("#back2Top").click(function (event) {
+                event.preventDefault();
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+            });
+
+        });
+        /*Scroll to top when arrow up clicked END*/
+    </script>
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+                Henry David to Megan Markle
+            </span>
+        </div>
+    </div>
+    <div class="header" id="myHeader">
+        <div id="navbar">
+            <a href="#schedule">Schedule</a>
+            <a href="#photo">Gallery</a>
+            <a href="#rsvp">RSVP</a>
+        </div>
+    </div>
+    <div class="content">
+        <div id="dualspan">
+            <span id="schedule" class="general">
+                <h2>SCHEDULE:</h2><br>
+                <p><b>2 p.m.</b> Photographer Arrives</p><br>
+                <p><b>2:15 p.m.</b> Bridesmaids are ready</p><br>
+                <p><b>2:30 p.m.</b> Bride Gets Dressed</p><br>
+                <p><b>2:45 p.m.</b> Bridal Portraits</p><br>
+                <p><b>3:10 - 3:30 p.m.</b> Bridesmaids Photos</p><br>
+                <p><b>3:30 p.m.</b> First Look</p><br>
+                <p><b>3:30 - 4:10 p.m.</b> Bride and Groom Photos</p><br>
+                <p><b>4:10 - 5:00 p.m.</b> Wedding Party and Family Photos</p><br>
+                <p><b>5:30 p.m.</b> Start Time Listed on Wedding Invitation</p><br>
+            </span>
+            <span id="generalinfo" class="general" padding="10%">
+                <h1>INFO:</h1>
+                <br><p font-size="24px"> Mr. Henry Charles Albert David and Ms Megan Markle request your presence to witness the ceremony of the Royal Wedding.The Marriage will be presented at St. George's Chapel, Windsor Castle on Saturday 19th May 2018 at noon, followed by a reception at the Windsor Castle. This ceramony of Marriage is a culminating event in the lives of the soon to be Mr. and Mrs. David. Prince Harry is the second son of Charles, Prince of Wales, and Diana, Princess of Wales. He and Meghan Markle, an American actress best known for her role in the Canadian-American legal-drama television series Suits, have been in a relationship since 2016, having first met in July 2016. The relationship was officially acknowledged on 8 November 2016, when a statement was released from the royal family's communications secretary addressing the "wave of abuse and harassment" directed toward Markle. The wedding dress is designed by the Brittish designer Clare Waight Keller under the aegis of the fashion house Givenchy. The centre brooch had been a wedding gift from the County of Lincoln in 1893. The tiara is a platinum band, made up of eleven sections, a detachable centre brooch with interlaced opals and diamonds. We hope that their marrige prospers!
+            </span>
+
+        </div>
+        <div id="photo">
+            <!-- GALLERY-->
+            <section preload>
+                <div class="container gal-container">
+                    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                        <div class="box">
+                            <a href="#" data-toggle="modal" data-target="#2">
+                                <img preload src="images/gallery1.jpg">
+                            </a>
+                            <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        <div class="modal-body">
+                                            <img src="images/gallery1.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                        <div class="box">
+                            <a href="#" data-toggle="modal" data-target="#2">
+                                <img preload src="images/gallery2.jpg">
+                            </a>
+                            <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        <div class="modal-body">
+                                            <img src="images/gallery2.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                        <div class="box">
+                            <a href="#" data-toggle="modal" data-target="#3">
+                                <img preload src="images/gallery3.jpg">
+                            </a>
+                            <div class="modal fade" id="3" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        <div class="modal-body">
+                                            <img src="images/gallery3.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                        <div class="box">
+                            <a href="#" data-toggle="modal" data-target="#4">
+                                <img preload src="images/gallery4.jpg">
+                            </a>
+                            <div class="modal fade" id="4" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        <div class="modal-body">
+                                            <img src="images/gallery4.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                        <div class="box">
+                            <a href="#" data-toggle="modal" data-target="#5">
+                                <img preload src="images/gallery5a.jpeg">
+                            </a>
+                            <div class="modal fade" id="5" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        <div class="modal-body">
+                                            <img src="images/gallery5a.jpeg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                        <div class="box">
+                            <a href="#" data-toggle="modal" data-target="#2">
+                                <img preload src="images/gallery6.jpg">
+                            </a>
+                            <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        <div class="modal-body">
+                                            <img src="images/gallery6.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="rsvp" class="general">
+            <!-- RSVP FORM -->
+            <button data-toggle="collapse" data-target="#rsvp">RSVP</button>
+            <div id="rsvp" class="collapse">
+                <form action="sendMail.php" method="post">
+                    <p>Name</p>
+                    <input type="text" name="name">
+                    <p>Guests</p>
+                    <input type="number" name="guests" min="0" max="4">
+                    <p>Email</p>
+                    <input type="email" name="email">
+                    <br>
+                    <input type="submit" name="submit" value="Submit" class="submit" />
+                </form>
+            </div>
+        </div>
+        <div id="travel">
+            <div class="weather">
+                <a class="weatherwidget-io" href="https://forecast7.com/en/51d48n0d61/windsor/?unit=us" data-label_1="WINDSOR" data-label_2="WEATHER" data-icons="Climacons Animated" data-accent="whitesmoke">WINDSOR WEATHER</a>
+                <script>
+                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+                </script>
+            </div>
+        </div>
+        <!-- SCRIPTS -->
+        <script src="js/jquery-3.4.0.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/audio.min.js"></script>
+        <script src="js/twitterFetcher_min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/placeholders.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap-4.3.1.js"></script>
+
+</body>
+</html>
