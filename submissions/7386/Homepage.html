@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="Slideshow.css">
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(142,178,237);
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                font-family: arial;
+                text-align: center;
+                padding: 10px 12px;
+                text-decoration: none;
+            }
+            
+            li a:hover {
+                background-color: rgb(193,212,242);
+            }
+            div.bodyContainer {
+                padding-left: 3%;
+                padding-right: 3%;
+            }
+            span {
+                font-size: 15px;
+            }
+            
+        </style>
+    </head>
+    <body style="font-family: cursive; margin: 0">
+        <div>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="MoreInformation.html">Information</a></li>
+        </ul>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="compimage1.jpg" style="width:100%; height:80%;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="compimage2.jpg" style="width:100%; height:80%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="compimage3.jpg" style="width:100%; height:80%">
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+      <div class="bodyContainer">  
+        <h1 style="font-family: cursive; text-align: center;"><i>John and Julia Invite YOU  to their Wedding</i></h1>
+        <br>
+          <h4>Who:</h4><p>Julia Trayvon and John Martin</p>
+          <h4>What:</h4><p>Wedding</p>
+          <h4>Where:</h4><a href="https://www.google.com/maps/dir/39.5296768,-119.8178304/wedding+chapels+in+vegas/@37.8557047,-119.7229396,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x80c8c387cd54678d:0xd738346007df5f39!2m2!1d-115.152584!2d36.150515" target="_blank" style ="color: black;"><i>Chapel of the Flowers</i> 1717 S Las Vegas Blvd, Las Vegas, NV</a>
+          <h4>When:</h4><p>Saturday, May 4, 2019 @ 1:30 pm</p>
+        <br>
+          
+        <hr width=80%>
+    
+        <div style="padding-bottom: 2%;" >
+          <h3 style="margin-bottom:0">The Bride</h3><p style="margin-top: 0px; margin-bottom: 0; padding-top: 0; font-size: 12px;">Born: September 23, 1996</p><br>
+            <table>
+                <tr>
+                    <td><span><p style="text-align: center;"><img src="woman-2112292_960_720.jpg" height = 25%></p></span></td>
+                    <td width = 90%><span><p>Julia Trayvon was born in Sacramento, California. She is currently a nurse at Good Samaritan Hospital in San Jose. Julia is a caring, loving, and a sympathetic person who is always willing to do anything to put others before her. </p></span></td>
+                </tr>
+            </table>
+        </div>  
+        <br><br>
+          <div style = "padding-bottom: 2%; ">
+          <h3 style="margin-bottom:0">The Groom</h3><p style="margin-top: 0px; margin-bottom: 0; padding-top: 0; padding-bottom: 0; font-size: 12px;">Born: March 14, 1992</p><br>
+            <table>
+                <tr>
+                    <td><span><p style="text-align: center;"><img src ="johnmartinimage.jpg" height = 15% width = 100%></p></span>
+                    <td width = 70%><span>John Martin was born San Diego, California. He works full-time as a computer software engineer in San Jose. He enjoys watching a variety of sports and is always in a good mood and ready to party.</span></td>
+                </tr>
+              </table>
+        </div>  
+          <br><hr width = 80%><br>
+        <h2>Reserve a Seat Now!</h2>
+        <form>
+          First Name:<br>
+          <input type="text" name="firstName">
+          <br><br>
+          Last Name:<br>
+          <input type ="text" name="lastName">
+            <br><br>
+          Email:<br>
+            <input type="text" name="email">
+            <br><br>
+            <input type="submit">
+        </form>
+          <br><br>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 5000); 
+                }
+    </script>
+    </div>
+    <div style="background-color: rgb(142,178,237);margin-bottom: 0;">
+        <p style ="color: white; text-align: center; padding: 0;">For Any Questions or Concerns Contact: johnandjulia@gmail.com</p></div><!--Contact info is made up for the aspect of realism-->
+    </body>
+</html>
