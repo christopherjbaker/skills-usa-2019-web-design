@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-image: url(Images/FlowerBack.jpg); background-repeat: no-repeat; background-size: cover; }
+#MenuImg {width:50%;}
+#Names {color:#FFFFFF; font-family: 'Dancing Script', cursive; font-size: 75px}
+#Home {color: white; font-family: 'Montserrat', sans-serif; text-decoration: none; position: fixed;
+top: 10px; right:20px}
+#Blessed {color: white; font-family: 'Montserrat', sans-serif; position: fixed;
+top: 10px; left:20px}
+h2 {color:white; font-family: 'Raleway', sans-serif;}
+p {color:white; font-family: 'Montserrat', sans-serif; margin:15px 0px; font-size: 20px}
+svg {position: absolute; top:50px; left:36.5%;}
+#wrapper {margin-top:200px}
+#Menu {display:none; }
+#WeddingSpot {width: 500px; height:500px; }
+#map1, #map2, #map3, #map4 {display:none; }
+#Menu { width:600px; height:450px; margin: 5px;}
+	

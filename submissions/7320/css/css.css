@@ -1,0 +1,489 @@
+/* Fonts */
+@font-face {
+    font-family: 'champagne__limousinesBdIt';
+    src: url('champagne__limousines_bold_italic-webfont.woff2') format('woff2'),
+        url('champagne__limousines_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'champagne__limousinesbold';
+    src: url('champagne__limousines_bold-webfont.woff2') format('woff2'),
+        url('champagne__limousines_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'champagne__limousinesitalic';
+    src: url('champagne__limousines_italic-webfont.woff2') format('woff2'),
+        url('champagne__limousines_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'champagne__limousinesregular';
+    src: url('champagne__limousines-webfont.woff2') format('woff2'),
+        url('champagne__limousines-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Nav */
+
+.nav {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 0.8em;
+    background-image: url(../assets/images/AdobeStock_192182376a.jpg);
+    font-weight: bold;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 35%;
+    z-index: 4000;
+
+}
+
+.nav li {
+    display: inline;
+    border: 30px;
+    border-color: red;
+}
+
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #affffd;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+/* Headers */
+#header {
+    font-size: 4em;
+    color: #ff8091;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-color: green;
+    border-radius: 4em;
+}
+
+#headerDiv {
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4em;
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-color: green;
+    line-height: inherit;
+    padding-top: 3px;
+
+
+}
+
+.sectionHeader {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.subsectionHeader {
+    padding: 1%;
+    font-weight: bold;
+    font-size: 4.5em;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'champagne__limousinesitalic';
+    margin-bottom: 3px;
+
+}
+
+.subsectionfinalHeader {
+    padding: 1%;
+    font-weight: bold;
+    font-size: 8em;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'champagne__limousinesitalic';
+    margin-bottom: 3px;
+
+}
+
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  text-align: center;
+  color: #fff;
+}
+.intro h1,
+.intro h2,
+.intro h3 {
+  color: #fff;
+}
+.intro span.bold {
+  font-weight: 700;
+}
+.intro h1 {
+  font-size: 76px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.intro p {
+  font-size: 23px;
+}
+@media (min-width: 1200px) {
+  .intro h1 {
+    font-size: 116px;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .intro h1 {
+    font-size: 42px;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+}
+.intro .icon {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: solid 2px #fff;
+  border-radius: 20px;
+  z-index: 3;
+  color: #fff;
+}
+.intro .content {
+  position: relative;
+  width: 100%;
+  top: 50%;
+ 
+  transform: translate(0, -50%);
+  z-index: 3;
+}
+.intro.image-background {
+  background: url('../assets/images/Artboard%201.jpg') center center no-repeat;
+ 
+  background-size: cover;
+ 
+}
+.intro.image-background .overlay {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  opacity: 0.93;
+  filter: alpha(opacity=93);
+  z-index: 2;
+}
+.intro a {
+  color: #fff;
+}
+.intro a:hover,
+.intro a:focus {
+  color: #fff;
+}
+.no-padding-top {
+  padding-top: 0;
+}
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.parallax {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+
+#parallaxDiv1 {
+    background: url(../assets/images/hero1.jpg) no-repeat fixed;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+#parallaxDiv2 {
+    background: url(../assets/images/hero2.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 3%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#parallaxDiv3 {
+    background: url(../assets/images/hero3.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 3%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#parallaxDiv4 {
+    background: url(../assets/images/hero4.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 3%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#parallaxDiv5 {
+    background: url(../assets/images/hero5.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 3%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#parallaxDiv6 {
+    background: url(../assets/images/hero6.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 3%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* Google Maps */
+.mapouter {
+
+    margin: 0 auto;
+    display: block;
+    margin: auto;
+
+}
+
+
+
+/* Content */
+
+.content1 {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    padding-top: 0;
+    margin: 0 auto;
+
+}
+
+.content2 {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+.content3 {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+.content4 {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+.content5 {
+    background: url(../assets/images/hero6g.jpg)no-repeat fixed;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+#contentImage1 {
+    display: block;
+    margin: auto;
+    opacity: 1;
+    border-radius: 1em;
+    margin-top: 2px;
+}
+
+#contentImage2 {
+    display: block;
+    margin: auto;
+    opacity: 1;
+    border-radius: 1em;
+}
+
+
+.contentText {
+    color: grey;
+    margin: 2%;
+    padding: 1%;
+    text-align: left;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Footer */
+
+#footer {
+    background-image: url(../assets/images/hero2g.jpg);
+    padding: 1%;
+    height: 5%;
+    text-align: right;
+}
+
+backToTop {
+    text-decoration: none;
+}
+
+#backToTopImage {
+
+    margin-right: 2%;
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+
+/* RSVP CSS */
+
+.formBox {
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #DFE9EA
+}
+
+button {
+    background-color: #DFE9EA;
+    padding: 6px 20px;
+    border-radius: 8px;
+    border-color: black;
+    border-width: 1px;
+}
+
+button[type=submit] {
+    color: #1DBE48;
+}
+
+button[type=reset] {
+    color: #BE1D4F;
+    font-weight: bold;
+}
+
+
+/* Media Queries CSS */
+
+
+/* Media Queries */
+
+@media (max-width: 1312px) {
+
+    .nav {
+
+        width: 70%;
+    }
+}
+
+@media (max-width: 915px) {
+
+    .nav {
+
+        width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .nav {
+
+        width: 80%;
+    }
+    
+}
+
+
+@media (max-width: 600px) {
+
+    .nav {
+
+        width: 95%;
+    }
+    
+}

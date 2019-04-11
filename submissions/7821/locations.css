@@ -1,0 +1,70 @@
+/* CSS Document *//* CSS Document */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  font-size: 28px;
+  text-align: center;
+  background-image:url(images/beach.jpg)
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #000;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #0FE0D0;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+	
+	h2 {text-shadow: 4px 4px 4px #FFF;}
+
+form {width: 49%; float: left;}
+
+.social {width: 50%; float: right;}
+.social-2 {padding: 50px;margin-left:7%;}
+.social-2 a {padding: 60px;}
+.social-2 a:hover {background-color: #0FE0D0;}
+
+.history {padding: 10px;}
+.history-2 {width: 48%; float: right; padding: 10px;}
+
+.rsvp-social {background-color: #18F0A3; padding: 10px;}
+
+
+p {font-size: 22px;}

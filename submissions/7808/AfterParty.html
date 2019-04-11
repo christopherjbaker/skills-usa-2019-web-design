@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AfterParty</title>
+<link href="AfterPartyCSS.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat|Raleway" rel="stylesheet">
+
+<script>
+	function MenuOn(){
+		document.getElementById('Menu').style.display = "Block"; 
+	}
+	
+	function MenuOff(){
+		document.getElementById('Menu').style.display = "none";
+	}
+	
+	function Map1On(){
+		document.getElementById('map1').style.display = "Block"; 
+	}
+	
+	function Map1Off(){
+		document.getElementById('map1').style.display = "none";
+	}	
+	
+	function Map2On(){
+		document.getElementById('map2').style.display = "Block"; 
+	}
+	
+	function Map2Off(){
+		document.getElementById('map2').style.display = "none";
+	}
+		
+	function Map3On(){
+		document.getElementById('map3').style.display = "Block"; 
+	}
+	
+	function Map3Off(){
+		document.getElementById('map3').style.display = "none";
+	}
+	
+	function Map4On(){
+		document.getElementById('map4').style.display = "Block"; 
+	}
+	
+	function Map4Off(){
+		document.getElementById('map4').style.display = "none";
+	}
+</script>
+</head>
+
+<body>
+<center><div id="Head">
+<svg width="500px" height="150px" veiwBox="0 0 500 500" >
+	<path id="curve" fill="transparent" d="M1,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97"></path>
+	<text id="Names">
+<textpath xlink:href="#curve" float="center">*Bryan & Ana</textpath>
+</text>
+</svg>
+</div>
+<a id="Home" href="Home.html"><h1>To Home</h1></a>
+<h1 id="Blessed">#Blessed</h1>
+<div id="wrapper">
+	<h2 id="When&Where">When & Where</h2>
+			<p>Hover Over For More Details</p>
+		<p onMouseOver="Map1On()"  onMouseOut="Map1Off()">2:00pm-2:30 Greetings/Introductions</p>
+<iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.108786974437!2d-119.95463658464115!3d38.99001347955653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80999ae0ff6f7715%3A0x96fda8dcfbc5bf16!2sRound+Hill+Pines+Beach+Resort!5e0!3m2!1sen!2sus!4v1555012011079!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<p>2:30 Ceremony Starts</p>
+		<p>3:15-3:30 Ceremony Ends</p>
+		<p>3:30-5:00 Cake and Dance</p>
+		<p onMouseOver="Map2On()"  onMouseOut="Map2Off()">5:15-5:30 Boat Ride to Lakeside Beach</p>
+<iframe id="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.424774755824!2d-119.95318868464211!3d38.959967679561096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80999a9f671d2d65%3A0x60b60522b25aac39!2sLakeside+Beach!5e0!3m2!1sen!2sus!4v1555012188072!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<p onMouseOver="MenuOn()"  onMouseOut="MenuOff()">5:45 19 Kitchen Bar for Dinner</p>
+			<img id="Menu" src="Images/19Menu.png">
+<p onMouseOver="Map3On()"  onMouseOut="Map3Off()">Harveys Contert</p>
+<iframe id="map3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.4102467754815!2d-119.94511388464207!3d38.96029947956094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80999a9c3da72967%3A0xe1d78d0574aaf62a!2sLake+Tahoe+Outdoor+Arena+at+Harvey&#39;s!5e0!3m2!1sen!2sus!4v1555013323379!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</center>
+</body>
+</html>

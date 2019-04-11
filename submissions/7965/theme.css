@@ -1,0 +1,72 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+}
+
+.content{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Quicksand', sans-serif;
+    font-variant: small-caps;
+    
+    padding-bottom: 50px;
+   
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: right; 
+  }
+}
+
+.story{
+    position: relative;
+    background-color: white;
+    width: 40%;
+    float: right;
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(255,255,255,0.7);
+    top: 6vh;
+    
+}
+
+.story p{
+    padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .story {
+    float: right;
+    display: block;
+    width: 50%;
+      
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .content{
+        margin: none;
+    }
+}
+

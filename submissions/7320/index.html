@@ -1,0 +1,168 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+    <!-- intro-->
+    <section id="intro" class="intro image-background">
+         
+        <div class="content">
+            <div class="container clearfix">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+
+                    </div>
+                </div>
+            </div>
+        </div><a href="#parallaxDiv2" class="icon faa-float animated scroll-to"><i class="fa fa-angle-double-down"></i></a>
+           <ul class="nav">
+            <li><a href="#parallaxDiv2">Statement</a></li>
+            <li><a href="#parallaxDiv3">Where</a></li>
+            <li><a href="#parallaxDiv4">When</a></li>
+            <li><a href="#parallaxDiv5">Transportation</a></li>
+         <li><a href="#parallaxDiv6">RSVP</a></li>  
+        </ul>
+    </section>
+
+
+
+    <div class="parallax" id="parallaxDiv2">
+        <div class="content1">
+            <p class="subsectionHeader" style="color: #66632c">Our Statement</p><b></b>
+            <hr width=25% align=center>
+            <img id="contentImage1" src="assets/images/img1.jpg" width="40%" height="40%">
+            <p class="contentText">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself.</p>
+        </div>
+    </div>
+
+    <div class="parallax" id="parallaxDiv3">
+        <div>
+            <div class="content2">
+                <p class="subsectionHeader" style="color: #de343d;">Where</p><b></b>
+                <hr width=25% align=center>
+                <div class="mapouter">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=eifel%20tower&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> <a href="https://www.jetzt-drucken-lassen.de"></a></div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 95%;
+                                width: 100%;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 70%;
+                                width: 100%;
+                            }
+                        </style>
+                    </div>
+                    <style>
+                    </style>
+                </div>
+                <p class="contentText">Our wedding will be held at the Eifel Tower in Paris, France.
+
+                    <br> The reception will be at April 11th 2019 at 6:59PM and the party is the following day, from 2:30PM to 7:30PM, the reception.
+                    <br> We wish to see you there!</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax" id="parallaxDiv4">
+        <div>
+            <div class="content3">
+                <p class="subsectionHeader" style="color: #2c7500;">When</p><b></b>
+                <hr width=25% align=center>
+                <p class="contentText">
+                    <iframe src="https://calendar.google.com/calendar/b/0/embed?showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=kkt2sfdv800f0rc5fertcb34h4%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="80%" height="60%" frameborder="0" scrolling="no"></iframe>
+
+                    <br></p>
+                <p class="contentText"> Please review the schedule for our wedding. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax" id="parallaxDiv5">
+        <div>
+            <div class="content4">
+                <p class="subsectionHeader" style="color: #005c63;">Transportation and Lodging</p><b></b>
+                <hr width=25% align=center>
+                <div style="height:500px;width: 500px; margin: 0 auto;">
+                    <div id="kayakSearchWidgetContainer"></div>
+                </div>
+                <script type="text/javaScript" src="https://www.kayak.com/affiliate/widget-v2.js"></script>
+                <script type="text/javaScript">
+                    KAYAK.embed({
+container: document.getElementById("kayakSearchWidgetContainer"),
+hostname: "www.kayak.com",
+autoPosition: true,
+defaultProduct: "hotels",
+enabledProducts: ["hotels", "flights"],
+startDate: "2019-04-11",
+endDate: "2019-04-11",
+origin: "New York, NY",
+destination: "Boston, MA",
+ssl: true,
+affiliateId: "acme_corp",
+isInternalLoad: false,
+lc: "en",
+cc: "us",
+mc: "EUR"
+});
+</script>
+                <p class="contentText"> Please book accommodations using Kayak near the Eifel Tower in Paris for easy access to events. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax" id="parallaxDiv6">
+        <div class="content5">
+            <p class="subsectionHeader" style="color: white;">RSVP</p><b></b>
+            <hr width=25% align=center>
+
+            <div class="formBox">
+                <form onsubmit="alert('Your form has been submitted!');">
+                    <label>First Name</label>
+                    <input type="text" id="fname" placeholder="Your first name.." required>
+
+                    <label>Last Name</label>
+                    <input type="text" id="lname" placeholder="Your last name.." required>
+
+                    <label>Email</label>
+                    <input type="text" id="lname" placeholder="Your email.." required>
+
+                    <label>Relation</label>
+                    <select id="subject" required>
+                        <option></option>
+                        <option value="travel">Family</option>
+                        <option value="travel">Friends</option>
+                        <option value="beach">Staff</option>
+                    </select>
+                    <label>Anything else?</label>
+                    <textarea id="subject" placeholder="Write something.." style="height:50px" required></textarea>
+                    <center>
+                        <button type="reset" value="Reset">Reset</button>
+                        <button type="submit" value="Submit">Submit</button>
+                    </center>
+                </form>
+
+            </div>
+            <p></p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <a id="backToTop" href="#intro"><img id="backToTopImage" src="assets/images/backToTop.png" width="3%" height="99%"></a>
+
+    </div>
+    <script src="js/js.js"></script>
+</body>
+
+</html>

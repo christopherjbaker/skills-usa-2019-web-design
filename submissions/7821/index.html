@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href = "indexdraft.css" rel="stylesheet" type="text/css">
+<title>#KingSina2019</title>
+<style>
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Join Us on the Most Important Day of Our Lives</h2>
+  <p style = "text-shadow: 4px 4px 4px #FFF;">#KingSina2019</p>
+</div>
+
+<div id="navbar">
+  <a class="active" href="indexdraft.html" target = "_self">Home</a>
+  <a href="locations.html" target = "_self">Locations and Other Information</a>
+  <a href = "gallery.html" target = "_self">Photo Gallery</a>
+</div>
+
+<div class="content">
+  <div class = "history">
+			<img src = "images/couple2.jpg">
+			<div class = "history-2">
+				<!-- Made up story about the couple -->
+				<center><h3>The Story of Kingston and Rosina</h3></center>
+				<center><p style = "font-size: 17.5px;">Kingston Mendez and Rosina Parkinson first met at Jameson
+				High School in Sacramento in 2012 as Seniors. When they graduated, they were
+				thousands of miles apart from each other, not knowing whether they would
+				see each other again.</p>
+				<p style = "font-size: 17.5px;">Kingston graduated from the University of Nevada, Reno with a Bachelor's Degree in Chemical Engineering. He was hired by a fuel company in Irvine that specializes in aviation fuel. His revolutionary work in the company impressed the CEO and he was made lead engineer for all the plants the company has all over the United States. The National Board of Chemical Engineers was also impressed by his work that they decided to place him as the newest member of the board. Many resporters heard of this and asked for interviews. One interview in particular was the moment when he fell for the particular journalist.</p>
+				<p style = "font-size: 17.5px;">Rosina graduated from Hampton University with a Bachelor's Degree in Journalism. She moved to Irvine hoping to find an opportunity for a career. She was accepted into the Irvine Gazette and was immediately placed as Chief Reporter. Word spread of the Chemical Engineer in Irvine that was invited to the National Board of Chemical Engineers as its newest member. She immediately knew who he was and was assigned to interview the person.</p>
+				<p style = "font-size: 17.5px;">After the interview, Kingston asked her on a date. They started dating in late 2017 and in January 2019, Kingston proposed to Rosina and are now officially engaged.</p></center>
+			</div>
+		</div>
+			<form>
+				<fieldset>
+					<legend>RSVP</legend>
+					First Name:<br>
+					<input type = "text"><br><br>
+					Last Name:<br>
+					<input type = "text"><br><br>
+					Number of Adults Coming<br>
+					<input type = "text"><br><br>
+					Number of Kids Coming (6-12 Years of Age)<br>
+					<input type = "text"><br><br>
+					Best Phone Number to Reach You<br>
+					<input type = "text"><br><br>
+					<input type = "submit">
+				</fieldset>
+			</form>
+			<div class = "social">
+				<center><h3>Keep in Touch with Us</h3></center>
+				<center><p style = "font-size: 17.5px;">We would love for you to keep in touch with us. Please visit our social media platforms to get updates and special peeks to our plans!</p></center>
+				<div class = "social-2">
+					<a href = "kingsinafb.com"><img src = "images/fb.png" style = "width: 40px;"></a>
+					<a href = "kingsinafb.com"><img src = "images/twit.png" style = "width: 40px;"></a>
+					<a href = "kingsinafb.com"><img src = "images/insta.png" style = "width: 40px;"></a>
+				</div>
+			</div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

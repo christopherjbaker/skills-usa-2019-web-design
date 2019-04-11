@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    
+<link rel="stylesheet" type="text/css" href="theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <style>
+    
+    input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: darkblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: lightblue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+    width: 50vw;
+    margin: auto;
+}
+
+        body{
+    background-image:url(beach.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+    .content{
+    margin-right: 5%;
+    margin-left: 5%;
+        margin-top: 5%;
+}
+        .rsvpintro{
+            text-align: center;
+            color: white;
+        }
+        
+        .intro{
+            text-align: center;
+            color: white;
+        }
+    </style>
+    
+    <script>
+    
+    
+    </script>
+    </head>
+    
+    <body>
+    
+        
+        <div class="navbar">
+    <a href="index.html">HOME</a>
+        
+        <a href="event.html">EVENT DETAILS</a>
+        
+        <a href="gallery.html">GALLERY</a>
+        <a href="rsvp.html">RSVP</a>
+        <a href="gift.html">GIFT REGISTRY</a>
+    
+    
+    </div>
+        
+    <div class="content">
+        
+        <h1 class="intro">RSVP</h1>
+        <p class="rsvpintro">We are very excited for our wedding in Tahiti on June 14.<br> It would be amazing if you could join us.<br> Please RSVP by June 1, 2019.</p>
+    <div class="container">
+        
+  <form action="/action_page.php" method="post">
+      
+      <p>Will you be able to attend?</p>
+      <input type="checkbox" id="myCheck" onclick="myFunction()" required>Yes
+      <br>
+      <input type="checkbox" id="myCheck" onclick="myFunction()" required>No
+      
+      <br><br>
+
+      
+    <label for="fname">First Name</label>
+      
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+
+    <label for="lname">Last Name</label>
+      
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="country">Email</label>
+      
+    <input type="text" id="lname" name="lastname" placeholder="Your email..." required>
+
+      
+      <label for="#people">How many people will you be bringing?</label>
+    <select id="#people" name="#people">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+      
+    <input type="submit" value="Submit">
+      
+  </form>
+    
+        </div>
+        
+        </div>
+    </body>
+</html>
